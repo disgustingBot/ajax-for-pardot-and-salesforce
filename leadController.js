@@ -17,7 +17,7 @@ function eraseCookie (n){createCookie(n,"",-1)}
 
 // before starting the process be sure to create the first 'status' cookie
 createCookie('status','next')
-cartController.sendAllLeads();
+sendAllLeads();
 
 
 
