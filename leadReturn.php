@@ -67,7 +67,7 @@ $response = curl_exec( $ch ); ?>
 
 		let vars = '?first_name='+first_name+'&last_name='+last_name+'&email='+email+'&phone='+phone+'&company='+company+'&country='+country+'&city='+city+'&product='+product+'&type='+type+'&size='+size+'&quantity='+quantity+'&message='+message;
 
-		let baseURL= 'https://silverseacontainers.com/testLead.php';
+		let baseURL= 'https://your-website.com/testLead.php';
 		
     let url = baseURL + vars;
     
